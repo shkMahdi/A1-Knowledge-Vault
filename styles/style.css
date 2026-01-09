@@ -15,14 +15,16 @@
     background-color: #469165;
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: 600px;
+    font-weight: 600;
     border: none;
     border-radius: 4px;
     padding: 12.5px 16px;
     cursor: pointer;
 }
 
-
+.primary-btn:hover {
+    background-color: #3b7d56; 
+}
 
 
 /*main style*/
@@ -58,9 +60,14 @@ nav {
     cursor: pointer;
 }
 
+.menu a:hover {
+    color: #30B868;
+    opacity: 1;
+}
+
 #banner {
     background-image: url(../assets/hero-bg.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
     height: 674px;
@@ -116,6 +123,10 @@ nav {
     margin-left: 16px;
 }
 
+.secondary-btn:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
 
 #notes {
     width: 85%;
@@ -217,12 +228,16 @@ nav {
     margin-bottom: 16px;
 }
 
+#early-access {
+    padding-bottom: 120px;
+}
 .early-access-container {
     width: 85%;
     max-width: 1360px;
     margin: 0 auto; 
     text-align: center;
     background-color: #F7F6F2;
+    border-radius: 12px;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -265,6 +280,9 @@ footer {
 
 }
 
+.socials {
+    margin-right: 107px;
+}
 .socials h3 {
     color: #FFFFFF;
     font-size: 20px;
@@ -276,13 +294,20 @@ footer {
 .social-logos {
     display: flex;
     gap: 16px;
+    cursor: pointer;
+}
+
+.logo-footer {
+    cursor: pointer;
 }
 
 footer hr {
     width: 85%;
     max-width: 1360px;
     margin: 80px auto 30px auto;
-    color: #888a90;
+    border: none;
+    height: 1px;
+    background-color: #4a4b4e;
 }
 
 footer p {
