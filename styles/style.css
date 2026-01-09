@@ -166,3 +166,48 @@ nav {
     line-height: 20px;
     color: #627382;
 }
+
+#second-brain {
+    padding-top: 120px;
+}
+
+#second-brain .second-brain-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.second-brain-container img {
+    height: 600px;
+    width: 600px;
+}
+
+.info .title {
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+.info h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.info .extra-info {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.info .points {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
